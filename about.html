@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malcolm Lismore Photography</title>
+    <link rel="stylesheet" href="styles.css">
+  
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+            background-image: url('2.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: rgba(22, 49, 138, 0.8); 
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-left: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        footer {
+            background-color: rgba(4, 21, 44, 0.5); 
+            color: #38b3a8;
+            text-align: center;
+            padding: 40px 0; 
+            margin-top: auto;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Style anchor tag */
+        header a,
+        footer a {
+            text-decoration: none;
+            color:hwb(313 50% 3%); ;
+        }
+
+        .header-buttons {
+            display: flex;
+            align-items: center;
+        }
+
+        .header-buttons a {
+            text-decoration: none;
+            color: hwb(64 50% 1%);
+            margin-left: 20px;
+            font-size: 18px; 
+        }
+
+        h1 {
+            margin-bottom: 20px; 
+        }
+
+      
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #e799bd;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            text-align: left;
+        }
+
+        .dropdown-content a {
+            color: rgba(80, 6, 74, 0.911);
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f0afec;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .hero {
+            padding: 100px 0;
+            text-align: center;
+            color: #acdda0; 
+        }
+
+        .hero h2 {
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            margin-bottom: 40px;
+        }
+        .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    color: #c2d2d3; 
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html">
+                <h1>Welcome to Malcolm Lismore Photography</h1>
+            </a>
+        </div>
+        <div class="header-buttons">
+            <nav>
+                <ul>
+                    <li><a href="about.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li class="dropdown">
+                        <a href="services.html">Services</a> 
+                        <div class="dropdown-content">
+                            <a href="#">Service 1</a>
+                            <a href="#">Service 2</a>
+                            <a href="#">Service 3</a>
+                        </div>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="about-section">
+        <div class="about-content">
+            <h2><center>About Malcolm Lismore</center></h2>
+            <img src="1.jpg" alt="Malcolm Lismore">
+            <center><h3>Malcolm Lismore is a freelance photographer based on the North West coast of Scotland. He has a deep passion for capturing the natural beauty of Scotland's landscapes, wildlife, and coastal scenes. With years of experience and expertise, Malcolm's photographs reflect the raw and rugged beauty of the Scottish wilderness.</p>
+            <h3>In addition to landscape and wildlife photography, Malcolm also specializes in capturing special moments at weddings, portraits, and other events. His keen eye for detail and creative approach ensure that each photograph tells a unique story.</h3>
+            <h3>Through his photography, Malcolm aims to inspire others to appreciate and preserve the natural world. His work has been featured in various publications and exhibitions, earning him recognition as one of Scotland's top photographers.</center></h3>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Powerd by Malcolm Lismore Photography. All rights reserved.</p>
+        <p><a href="terms.html">Terms and Conditions</a> | <a href="privacy.html">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>

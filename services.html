@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Malcolm Lismore Photography</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            color: #d7eb69;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #0b034e;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(5, 5, 5, 0);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul {
+            color: #f5f843; 
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            color: #fae424; 
+            display: inline;
+            margin-left: 20px;
+        }
+        nav ul li a {
+    color: #f7e225; 
+    text-decoration: none; 
+    padding: 10px 20px; 
+}
+
+nav ul li a:hover {
+    background-color: #ec5e5e; /
+}
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 20px 0;
+            color: #fc68ca;
+        }
+
+        .services-section {
+            padding: 50px 0;
+            background-color: #acf1ac;
+        }
+
+        .service {
+            margin-bottom: 40px;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #03585e;
+            box-shadow: 0 4px 8px rgba(122, 108, 108, 0);
+        }
+
+        .service h2 {
+            margin-bottom: 10px;
+            color: #ff2a83;
+        }
+
+        .service p {
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+
+        footer {
+            background-color: #333;
+            color: #3ff0e7;
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            text-align: left;
+        }
+
+        .dropdown-content a {
+            color: rgb(236, 240, 39);
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ec5e5e;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to Malcolm Lismore Photography</h1>
+        </div>
+        <div class="header-buttons">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li class="dropdown">
+                        <a href="services.html">Services</a> 
+                        <div class="dropdown-content">
+                            <a href="#service1">Landscape</a>
+                            <a href="#service2">Wedding</a>
+                            <a href="#service3">others</a>
+                        </div>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="services-section">
+        <div class="container">
+            <div id="service1" class="service">
+                <h2>Weddings</h2>
+                <h3>Package Highlights</h3>
+
+                    <p>Pre-Wedding Consultation: We'll meet with you beforehand to discuss your vision, preferences, and any specific shots you desire. This allows us to tailor our approach to perfectly suit your style and requirements.</p>
+                    
+                    <p>Full-Day Coverage: From the anticipation of getting ready to the joyous celebration and beyond, our team will be there to document every heartfelt moment throughout your wedding day. We don't just capture photos; we tell the story of your love and commitment.</p>
+                    
+                    <p>Two Professional Photographers: To ensure no moment goes unnoticed, we provide two experienced photographers who work seamlessly together to capture different angles and perspectives, adding depth and richness to your wedding album.</p>
+                    
+                    <p>Customized Editing: Each image is meticulously edited to perfection, enhancing colors, clarity, and composition while maintaining the authenticity of the moment. We believe in creating timeless photographs that you'll cherish for a lifetime.</p>
+                    
+                    <p>High-Resolution Digital Images: You'll receive a beautiful collection of high-resolution digital images, allowing you to relive every emotion and detail of your wedding day with stunning clarity.</p>
+                    
+                    <p>Online Gallery: Share your precious memories with friends and family through a private online gallery, where they can view, download, and even order prints of their favorite images.</p>
+                    
+                    <h4>Price: Our comprehensive Wedding Photography Package is priced at $1000up. We believe in transparent pricing with no hidden fees, ensuring you receive exceptional value for your investment.</h4>
+                    
+                    <p>Embark on this enchanting journey with us, and let Malcolm Lismore Photography capture the essence of your love story in timeless imagery that will be treasured for generations to come. Contact us today to reserve your date and begin planning the wedding photography experience of a lifetime.</p>
+            </div>
+            <div id="service2" class="service">
+                <h2>Landscape</h2>
+                <p>Indulge in the mesmerizing beauty of nature with our Landscape Photography Package. Capture the essence of serene mountains, lush forests, and tranquil lakes in stunning detail.</p>
+                <h4>Priced at $800up, our package includes personalized sessions, professional editing, and high-quality prints. Immerse yourself in the wonder of the great outdoors</h4>
+            </div>
+            <div id="service3" class="service">
+                <h2>Portrait</h2>
+                <p>Unveil your unique essence with our Portrait Photography Package. Let our skilled photographers capture your personality and style in every frame.</p>
+                <h4>Priced at 500up, our package includes personalized sessions, professional retouching, and high-resolution images. Embrace your individuality with timeless portraits.</h4>
+            </div>
+            <div id="service3" class="service">
+                <h2>Other Functions</h2>
+                <p>
+                    Elevate your special occasions with our Other Functions Photography Package. From birthdays to corporate events, our skilled team will immortalize your moments with creativity and precision. </p>
+                    <h4>Priced at $800 up, our package offers comprehensive coverage and stunning images to cherish for a lifetime.</h4>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; Powered by Malcolm Lismore Photography. All rights reserved.</p>
+            <p><a href="terms.html">Terms and Conditions</a> | <a href="privacy.html">Privacy Policy</a></p>
+        </div>
+    </footer>
+
+   
+</body>
+
+</html>
